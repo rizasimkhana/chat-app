@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://chatappriza.netlify.app/", // Frontend URL (adjust if necessary)
+    origin: "https://chatriza.netlify.app/", // Frontend URL (adjust if necessary)
     credentials: true,
   })
 );
