@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://chat-app-6cmb.onrender.com"],
+    origin: ["https://chatriza.netlify.app"],
   },
 });
 
