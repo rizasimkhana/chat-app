@@ -86,7 +86,7 @@ const MessageInput = () => {
             onChange={handleImageChange}
           />
 
-          <button
+<button
             type="button"
             className={`sm:flex btn btn-circle
                      ${imagePreview ? "text-emerald-500" : "text-zinc-400"}`}
